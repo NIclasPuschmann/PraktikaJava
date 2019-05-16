@@ -31,7 +31,7 @@ public class BarChart extends Panel
 		// Werte mit Bild deswegen ohne, deswegen -1
 
 		for (int i=0; i<commLineArgsTotal.length-1; i++) {
-				percentages[i] = Integer.parseInt(commLineArgsTotal[i+1]); // warum wird hier wieder eins drauf gerechnet????
+				percentages[i] = Integer.parseInt(commLineArgsTotal[i+1]); 
 //				System.out.println(percentages[i]);
 		}
 	}
