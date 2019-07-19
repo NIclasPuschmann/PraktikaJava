@@ -9,7 +9,7 @@ public class Circle extends Figur
   public Circle(int d)
   {
     this.d=d;
-    super.height=d;
+    this.height=d;
     this.d = (d>0) ? d : 0;
     
   }
