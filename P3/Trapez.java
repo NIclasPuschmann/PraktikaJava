@@ -6,13 +6,7 @@ import java.lang.Math.*;
 public class Trapez extends Figur
 {
 
-  int a;
-  int b;
-  int c;
-  int d;
-  int h;
-  int width;
-  int height;
+  int a, b, c, d, h, width, height;
 
   //Konstruktor1
   public Trapez(int a, int h)

@@ -14,7 +14,6 @@ public class AWTFigur extends Panel
     this.f=f;
   }
 
-
   public void paint(Graphics g)
   {
     f.paint(g);
