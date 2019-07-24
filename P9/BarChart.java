@@ -17,9 +17,7 @@ public class BarChart extends Panel
 
 
 	// Konstruktor
-
 	// commLineArgsTotal enthalten Bild
-
 	BarChart (Image Img, String[] commLineArgsTotal) {
 
 		this.Img=Img;
@@ -78,7 +76,7 @@ public class BarChart extends Panel
 			// startAngle = startAngle + degreeInt[n];
 
 
-            g.fillRect((Img.getWidth(this)/2)-(Img.getWidth(this)/4)+x, ((Img.getHeight(this)/2)+width)-degreeInt[n], width, degreeInt[n]);
+            g.fillRect((Img.getWidth(this)/2)-(Img.getWidth(this)/4)+x, ((Img.getHeight(this)/2))-degreeInt[n], width, degreeInt[n]);
             x = x + xAdd;
 
             
@@ -90,6 +88,7 @@ public class BarChart extends Panel
 	}
 
 
+	// preferred Size des Panels beim Starten des Programms
 	@Override
 	public Dimension getPreferredSize()	{
 
